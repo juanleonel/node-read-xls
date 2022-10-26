@@ -9,7 +9,7 @@ function buildObject(row, sheet_name) {
     postalCode: row.d_codigo,
     state: row.d_estado,
     municipality: row.D_mnpio,
-    setelement: row.d_asenta
+    settlement: row.d_asenta
   }
 }
 
